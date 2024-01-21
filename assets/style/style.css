@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+
+* {
+    --bg-grey: #eeeeee;
+    --bg-black: #000000;
+    --navbar-blue: #031E41;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    background-color: var(--bg-black, black);
+    
+}
+
+.navbar-custom {
+    background-color: var(--navbar-blue, blue);
+}
+
+.navbar-brand-custom {
+    color: white;
+    font-size: 30px;
+}
+
+.container-fluid {
+    border: solid red;
+    
+}
+
+.nav-links {
+    color: white;
+    font-size: 20px;
+    border: solid red;
+
+    display: flex;
+    margin: auto;
+
+}
+
+footer {
+    background-color: green;
+}
